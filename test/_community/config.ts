@@ -17,7 +17,6 @@ export default buildConfigWithDefaults({
   admin: {
     meta: {
       titleSuffix: '- Candid Cloud CMS',
-      ogImage: '/assets/candid-cloud-og.png',
     },
     importMap: {
       baseDir: path.resolve(dirname),
