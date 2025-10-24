@@ -15,6 +15,10 @@ export default buildConfigWithDefaults({
   // ...extend config here
   collections: [PostsCollection, MediaCollection],
   admin: {
+    meta: {
+      titleSuffix: '- Candid Cloud CMS',
+      ogImage: '/assets/candid-cloud-og.png',
+    },
     importMap: {
       baseDir: path.resolve(dirname),
     },
