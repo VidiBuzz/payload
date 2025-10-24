@@ -1,0 +1,7 @@
+[build]
+buildCommand = "pnpm install && pnpm build:core && pnpm build:app"
+
+[deploy]
+startCommand = "node .next/standalone/server.js"
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 10
